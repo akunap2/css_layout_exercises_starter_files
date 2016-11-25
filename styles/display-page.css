@@ -1,0 +1,44 @@
+.whole_box {
+	margin-top: 50px;
+	width: 800px;
+	height: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 0;
+}
+
+.green_box {
+	background-color: green;
+}
+
+.blue_box {
+	background-color: blue;	
+}
+
+.green_box, .blue_box {
+	width: 50%;
+	height: 200px;
+	display: inline-block;
+}
+
+.gray_box {
+	background-color: gray;
+}
+
+.black_box {
+	background-color: black;
+}
+
+.orange_box {
+	background-color: orange;
+}
+
+.gray_box, .black_box, .orange_box {
+	height:300px;
+	width:33.33%;
+	display: inline-block;
+}
+
+div {
+	border: black 1px solid;
+}
